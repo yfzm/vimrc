@@ -17,12 +17,12 @@ endtry
 set mouse=a
 set belloff=all
 
-### Copy lines below for kernel developing
-# set tabstop=8
-# set softtabstop=8
-# set shiftwidth=8
-# set noexpandtab
-# set cindent
+"Copy lines below for kernel developing
+"set tabstop=8
+"set softtabstop=8
+"set shiftwidth=8
+"set noexpandtab
+"set cindent
 
 function SmoothScroll(up)
 	if a:up
