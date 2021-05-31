@@ -150,6 +150,8 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ale (syntax checker and linter)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ale_enabled = 0
+
 let g:ale_linters = {
 \   'javascript': ['jshint'],
 \   'python': ['flake8'],
